@@ -1,0 +1,36 @@
+/*-----------------------------------------------------------------------------------*/
+/*	04. STICKY NAVBAR
+/*-----------------------------------------------------------------------------------*/
+.navbar.fixed {
+    background: rgba(29,29,33,0.8) !important;
+    height: 70px;
+}
+.navbar.solid {
+    background: rgba(29,29,33,0.9);
+}
+.navbar.solid.light {
+    background: #FFF;
+}
+.navbar.fixed.light {
+    background: rgba(255,255,255,0.9) !important;
+    border-bottom: 1px solid rgba(29,29,33,0.12);
+}
+.navbar .navbar-brand img.logo-dark,
+.navbar.solid.dark .navbar-brand img.logo-dark,
+.navbar.solid.light .navbar-brand img.logo-light {
+    display: none
+}
+.navbar .navbar-brand img.logo-light,
+.navbar.solid.light .navbar-brand img.logo-dark,
+.navbar.solid.dark .navbar-brand img.logo-light {
+    display: inline-block
+}
+.navbar.fixed.light .navbar-brand img.logo-light {
+    display: none
+}
+.navbar.fixed.light .navbar-brand img.logo-dark {
+    display: inline-block
+}
+.navbar.fixed .navbar-collapse {
+    line-height: 70px;
+}
